@@ -29,10 +29,11 @@ brew "nghttp2"
 brew "nginx", restart_service: true
 brew "node"
 brew "node@12"
-brew "node@14", link: true
+brew "node@14"
 brew "node@16"
 brew "openjdk@8"
 brew "postgresql", restart_service: true
+brew "pure"
 brew "ruby"
 brew "thefuck"
 brew "wget"
