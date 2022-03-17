@@ -1,20 +1,24 @@
 tap "adoptopenjdk/openjdk"
 tap "facebook/fb"
+tap "fwartner/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "jesseduffield/lazygit"
 tap "planetscale/tap"
+brew "act"
 brew "sqlite"
 brew "python@3.10"
 brew "autojump"
+brew "automake"
 brew "node"
 brew "bitwarden-cli"
 brew "freetds"
 brew "krb5"
 brew "php", restart_service: true
 brew "composer"
+brew "coreutils"
 brew "folly"
 brew "fswatch"
 brew "little-cms2"
@@ -29,19 +33,20 @@ brew "gnupg"
 brew "libheif"
 brew "python@3.8"
 brew "imagemagick"
+brew "jq"
 brew "mas"
 brew "mysql", restart_service: true
 brew "nghttp2"
 brew "nginx", restart_service: true
-brew "node@16", link: true
+brew "node@16"
 brew "openjdk@8"
 brew "postgresql", restart_service: true
 brew "pure"
 brew "redis", restart_service: true
-brew "ruby"
 brew "thefuck"
 brew "wget"
 brew "yarn"
+brew "zlib"
 brew "facebook/fb/idb-companion"
 brew "jesseduffield/lazygit/lazygit"
 cask "adoptopenjdk15"
@@ -52,11 +57,8 @@ mas "Amphetamine", id: 937984704
 mas "Bitwarden", id: 1352778147
 mas "Dark Mode for Safari", id: 1397180934
 mas "Dashlane", id: 517914548
-mas "Disk Speed Test", id: 425264550
-mas "Fonts Ninja for Safari", id: 1480227114
 mas "Gestimer", id: 990588172
 mas "Grammarly for Safari", id: 1462114288
-mas "Honey", id: 1472777122
 mas "Hotspot Shield", id: 771076721
 mas "Magnet", id: 441258766
 mas "Numbers", id: 409203825
